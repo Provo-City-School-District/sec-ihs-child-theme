@@ -57,12 +57,12 @@ add_filter( 'login_headertitle', 'my_login_logo_url_title' );
 /*==========================================================================================
 // Add link to stats for a user
 ============================================================================================*/
-//this will add a stats link under the dashboard menu. 
+//this will add a stats link under the dashboard menu.
 if ( !function_exists( 'single_submenu_dropdown_link_example' ) || current_user_can('svo_page_stats', $post->ID) ) {
 function single_submenu_dropdown_link_example() {
 	global $submenu;
 	$link_to_add = 'admin.php?page=stats&view=post&post=46446';
-	// change edit.php to the top level menu you want to add it to 
+	// change edit.php to the top level menu you want to add it to
 	$submenu['index.php'][] = array('Stats', 'svo_page_stats', $link_to_add);
 }
 add_action('admin_menu', 'single_submenu_dropdown_link_example');
