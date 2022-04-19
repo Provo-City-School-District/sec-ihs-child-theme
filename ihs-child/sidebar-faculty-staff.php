@@ -23,19 +23,14 @@
 	<section>
 		<h1>Find Your Teacher by Category</h1>
 			<ul>
-				<li class="int"><a href="https://timpview.provo.edu/faculty-staff/teacher-directory/teachers-by-category#art">Arts</a></li>
-				<li class="int"><a href="https://timpview.provo.edu/faculty-staff/teacher-directory/teachers-by-category#business">Business</a></li>
-				<li class="int"><a href="https://independence.provo.edu/our-teachers-staff/teacher-course-directory/career-technical-education/">Career & Technical Education</a></li>
-				<li class="int"><a href="https://timpview.provo.edu/faculty-staff/teacher-directory/teachers-by-category#driver">Driver Education</a></li>
-				<li class="int"><a href="https://independence.provo.edu/our-teachers-staff/teacher-course-directory/elective/">Elective</a></li>
-				<li class="int"><a href="https://independence.provo.edu/our-teachers-staff/teacher-course-directory/english/">English</a></li>
-				<li class="int"><a href="https://timpview.provo.edu/faculty-staff/teacher-directory/teachers-by-category#facs">Family and Consumer Science</a></li>
-				<li class="int"><a href="https://timpview.provo.edu/faculty-staff/teacher-directory/teachers-by-category#language">Foreign Language</a></li>
-				<li class="int"><a href="https://independence.provo.edu/our-teachers-staff/teacher-course-directory/math/">Math</a></li>
-				<li class="int"><a href="https://independence.provo.edu/our-teachers-staff/teacher-course-directory/physical-education/">Physical Education</a></li>
-				<li class="int"><a href="https://independence.provo.edu/our-teachers-staff/teacher-course-directory/science/">Science</a></li>
-				<li class="int"><a href="https://independence.provo.edu/our-teachers-staff/teacher-course-directory/social-studies/">Social Studies</a></li>
-				<li class="int"><a href="https://independence.provo.edu/our-teachers-staff/teacher-course-directory/special-education/">Special Education</a></li>
+				<li class="int"><a href="<?php echo get_home_url(); ?>/our-teachers-staff/teacher-course-directory/career-technical-education/">Career & Technical Education</a></li>
+				<li class="int"><a href="<?php echo get_home_url(); ?>/our-teachers-staff/teacher-course-directory/elective/">Elective</a></li>
+				<li class="int"><a href="<?php echo get_home_url(); ?>/our-teachers-staff/teacher-course-directory/english/">English</a></li>
+				<li class="int"><a href="<?php echo get_home_url(); ?>/our-teachers-staff/teacher-course-directory/math/">Math</a></li>
+				<li class="int"><a href="<?php echo get_home_url(); ?>/our-teachers-staff/teacher-course-directory/physical-education/">Physical Education</a></li>
+				<li class="int"><a href="<?php echo get_home_url(); ?>/our-teachers-staff/teacher-course-directory/science/">Science</a></li>
+				<li class="int"><a href="<?php echo get_home_url(); ?>/our-teachers-staff/teacher-course-directory/social-studies/">Social Studies</a></li>
+				<li class="int"><a href="<?php echo get_home_url(); ?>/our-teachers-staff/teacher-course-directory/special-education/">Special Education</a></li>
 			</ul>
 	</section>		
 			<?php
